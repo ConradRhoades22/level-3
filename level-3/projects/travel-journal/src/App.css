@@ -1,0 +1,69 @@
+.App {
+  text-align: center;
+  background-color: #fbe8a6;
+}
+header{
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+  text-align: center;
+  margin: auto;
+  width: auto;
+  height: auto;
+  font-weight: 100;
+  font-size: 15px ;
+  background-color: #f4976c;
+  color: #303c6c;
+}
+body {
+  background-color: #fbe8a6;
+}
+.card {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center; 
+  text-align:left;
+  max-width: 700px;
+  margin: auto;
+  object-fit: cover;
+  color: #303c6c;
+  column-gap: 1em;
+  row-gap: 2em;
+  padding: 10px;
+  border-bottom: 2px solid black ;
+}
+img {
+  display: flex;
+  flex-direction: row;
+  height: 168px;
+  width: 125px;
+  border-radius: 10px;
+  object-fit: cover;
+  min-width: 125px;
+  min-height: 168px;
+}
+.location-list{
+  display: flex;
+  flex-direction: column;
+  row-gap: 2em;
+  column-gap: 1em;
+}
+a{
+  color: darkmagenta;
+  text-decoration: none;
+}
+a:hover{
+  color:dodgerblue
+}
+a:visited{
+  color: darkblue;
+}
+.title{
+  font-size: 2em;
+}
+.card--location{
+  display: flex;
+  flex-direction: column;
+}
+
