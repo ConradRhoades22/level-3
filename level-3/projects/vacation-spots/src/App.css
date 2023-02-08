@@ -1,0 +1,37 @@
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: #feffdf;
+  margin: auto;
+  width: 600px;
+  border-radius: 10px;
+}
+.card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: left;
+  flex-direction: column;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: #ffa952;
+  border-radius: 10px;
+  margin: 20px auto;
+  width: 300px;
+  height: 150px;
+  padding: 20px;
+}
+body {
+  background-color: #ffe79a;
+}
+.place {
+  font-size: larger;
+  padding: 10px;
+}
+.time{
+  padding: 10px;
+}
+.price{
+  padding: 10px;
+}
