@@ -1,0 +1,104 @@
+.App{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+}
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: #062925;
+}
+header{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: #3a9188;
+  border-radius: 15px;
+}
+.header{
+  width: 600px;
+  padding: 10px;
+  color: whitesmoke;
+}
+.list{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+  margin: 15px auto;
+  row-gap: 20px;
+}
+.friends{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: row;
+}
+.pets{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+}
+.fL{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: row;
+  background-color: #044a42;
+  padding: 20px 50px;
+  margin: 15px;
+  border-radius: 15px;
+}
+.friend{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: row;
+  background-color: #3a9188;
+  padding: 15px;
+  border-radius: 15px;
+  width: 400px;
+  column-gap: 30px;
+
+}
+.name {
+  font-size: 30px;
+  margin: 10px
+}
+.age h4 {
+  margin: 10px;
+}
+.fPets{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+  width: 200px;
+  background-color: #b8e1dd;
+  border-radius: 15px;
+  padding: 10px 20px;
+}
+.person{
+  padding: 10px;
+  color: whitesmoke;
+}
+.petName{
+  text-transform: capitalize;
+  padding: 5px;
+}
+.petType{
+  text-transform: capitalize;
+}
+
